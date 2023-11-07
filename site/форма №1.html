@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Оформление заказа </title>
+    <style>
+        TABLE {
+        border-collapse: collapse;
+        }
+        TD, TH {
+        padding: 30px;
+        border: 3px solid maroon;
+        }
+        a {
+        text-decoration: none;
+        }
+  </style>
+</head>
+<body style="background-color:#F5DEB3;text-color:#8B4513">
+<p align="right"> <a href="index.html"> <font  color="#000000"> Главная </font> </a> &nbsp;&nbsp;&nbsp; <a href="Латте.html"> <font  color="#000000"> Латте </font> </a> &nbsp;&nbsp;&nbsp; <a href="американо.html"> <font  color="#000000"> Американо </font> </a> &nbsp;&nbsp;&nbsp; <a href="раф.html"> <font  color="#000000"> Раф </font> </a> &nbsp;&nbsp;&nbsp; <a href="Капучино.html"> <font  color="#000000"> Капучино </font> </a> &nbsp;&nbsp;&nbsp; <b> <a href="форма №1.html"> <font  color="#A52A2A"> Оформление заказа </font> </a> </b> </p>
+<table border="4" height="500" width="900" align="center" bordercolor="#6A3704" bgcolor="#F0D6AD">
+    <tr>
+        <td colspan="3" align="center">
+<h3> Оформление заказа </h3>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+                <p> <input name="q" type="hidden" value="search"></p>
+                <p> Имя:<input name="first_name" size="15" type="Text" value="Иван"> </p>
+                <p> Фамилия: <input name="last_name" size="15" type="Text" value="Иванов"> </p>
+                <p> Возраст: <input name="age" size="15" type="Number" value="20"> </p>
+                <p> Место проживания:
+                    <input checked name="place" type="Radio" value="Moscow"> Москва
+                    <input name="place" type="Radio" value="Moscow_oblast"> Московская область
+                </p>
+                <p> Сколько напитков вы хотите взять: <input name="number" size="15" type="Number" value="2"> </p>
+
+                <p> Какой напиток вы хотите взять:
+                    <input checked name="drink" type="Checkbox"> Латте
+                    <input name="drink" type="Checkbox"> Американо
+                    <input name="drink" type="Checkbox"> Раф
+                    <input name="drink" type="Checkbox"> Капучино
+                </p>
+
+                <p> Выберите объем напитка:
+                    <select name="volume">
+                        <OPTION value="Маленький"> Маленький (0.3) </OPTION>
+                        <OPTION value="Большой"> Большой (0.4) </OPTION>
+                    </select>
+                </p>
+                <p> Дополнительная информация:
+                    <br>
+                    <TEXTAREA cols=60 name="textarea" rows=4> Дополнительные комментарии </TEXTAREA>
+                </p>
+                <p> Дата: <input name="u_date" type="date" value='2023-11-08'> </p>
+
+                <input name="function" type="hidden" value="page">
+                <input name="page_id" type="hidden" value="3">
+                <p>
+                    <input name="Reset" type="Reset" value="Обновить">
+                    <input name="submit" type="Submit" value="Отправить">
+                </p>
+            </form>
+        </td>
+    </tr>
+</table>
+<p align="left"> <a href="Капучино.html"> <font  color="#000000"> Назад </font> </a> </p>
+</body>
+</html>
