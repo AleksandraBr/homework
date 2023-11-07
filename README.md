@@ -1,2 +1,2 @@
 # homework
-#### https://aleksandrabr.github.io/homework/site/index.html
+#### https://aleksandrabr.github.io/homework/site
